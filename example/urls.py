@@ -4,7 +4,7 @@ from django.urls import path
 from django.http import HttpResponse
 
 def home (request):
-    return HttpResponse('Home Page')
+    return HttpResponse('Hello world this is django project')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
